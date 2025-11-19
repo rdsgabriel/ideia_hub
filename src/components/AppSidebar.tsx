@@ -6,6 +6,7 @@ import {
   Shield,
   Cog,
   Users,
+  BookOpen,
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import {
@@ -30,6 +31,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
 const menuItems = [
   { title: "Dashboard", icon: LayoutDashboard, url: "/" },
+  { title: "Propósito", icon: BookOpen, url: "/proposito" },
   { title: "Jobs", icon: Cog, url: "/jobs" },
   { title: "Projetos", icon: FileText, url: "/projetos" },
   { title: "Logs", icon: ScrollText, url: "/logs" },
